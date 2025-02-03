@@ -3,27 +3,27 @@
  */
 package com.wipro.java.oops;
 
-
 /**
  * 
  */
-public class ProjectLead extends Employee{
+public class Developer extends Employee{
 
 	/**
 	 * 
 	 */
-	public ProjectLead() {
+	public Developer() {
 		// TODO Auto-generated constructor stub
 	}
 	public static void main(String a[]) {
-		Employee employee=new ProjectLead();
-		employee.setEmpId(99993);
-		employee.setEmpName("ProjectLead");
-		employee.setEmpMailId("projectlead.com");
-		employee.setEmpSalary(30000f);
+		Employee employee=new Developer();
+		employee.setEmpId(99992);
+		employee.setEmpName("Developer");
+		employee.setEmpMailId("developer@gmail.com");
+		employee.setEmpSalary(40000f);
 		System.out.println(employee.getEmpId());
 		System.out.println(employee.getEmpName());
 		System.out.println(employee.getEmpMailId());
 		System.out.println(employee.getEmpSalary());
 	}
+
 }
