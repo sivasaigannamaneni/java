@@ -1,4 +1,4 @@
-package com.wipro.java.oops;
+package com.wipro.java.oops.inheritance;
 
 /**NO constructor
 * Getters have return value
