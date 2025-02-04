@@ -1,15 +1,16 @@
 package com.wipro.java.exception;
 
 public class DivideByZero {
-	static int i=100;
+
 	public DivideByZero() {
 		// TODO Auto-generated constructor stub
 	}
 	public static void main(String a[]) {
-		int j=0;
-		int ans;
+		int num1=10, num2=2,num3;
+		
 		try {
-			ans=i/j;
+			num3=num1/num2;
+			System.out.println(num3);
 		}
 		catch(Exception e) {
 			System.out.println(e.toString());
