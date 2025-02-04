@@ -6,7 +6,7 @@ public class DivideByZero {
 		// TODO Auto-generated constructor stub
 	}
 	public static void main(String a[]) {
-		int num1=10, num2=2,num3;
+		int num1=10, num2=0,num3;
 		
 		try {
 			num3=num1/num2;
