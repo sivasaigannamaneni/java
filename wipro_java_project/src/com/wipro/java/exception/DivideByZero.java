@@ -16,7 +16,7 @@ public class DivideByZero {
 			System.out.println(e.toString());
 		}
 		finally {
-			System.out.println("Executed");
+			System.out.println("Execut if Exception is their or not");
 		}
 		System.out.println("Remaining Code");
 	}
