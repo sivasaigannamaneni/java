@@ -13,8 +13,8 @@ public class MapImplementation {
 		map.put(3, "Banana");
 		
 		System.out.println("Key 1: "+map.get(1));
-		System.out.println("Key 1: "+map.get(2));
-		System.out.println("Key 1: "+map.get(3));
+		System.out.println("Key 2: "+map.get(2));
+		System.out.println("Key 3: "+map.get(3));
 		
 		if(map.containsKey(3)) {
 			System.out.println("Key 3b exists with value: "+map.get(3));
