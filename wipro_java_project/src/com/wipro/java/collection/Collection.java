@@ -70,5 +70,4 @@ public class Collection {
 			System.out.println(entry.getKey() + ": "+entry.getValue());
 		}
 	}
-
 }
